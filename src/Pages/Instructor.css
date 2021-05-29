@@ -1,0 +1,110 @@
+#Instructor{
+    position: relative;
+    padding-top: 2em;
+    display: flex;
+}
+#Instructor > .Instructor_first{
+    flex: .2;
+    position: relative;
+    padding-top: 5em;
+    padding-left: 5em;
+    width: 20%;
+    height: 70em;
+    margin-left: 2em;
+    background-color: #E0E6F2;
+}
+#Instructor > .Instructor_first >h3{
+    margin-left: 18px;
+}
+.Instructor_first_Data{
+    display: flex;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+#Instructor > .Instructor_first > div:nth-child(2){
+    background-color: rgb(192, 192, 192);
+}
+.Instructor_first_Data > img{
+    height: 3em;
+}
+.Instructor_first_Data > .Instructor_first_Data_info > p{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight:500;
+    color: grey;
+
+}
+.Instructor_first_Data > .Instructor_first_Data_info > p:nth-child(1){
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+}
+.Instructor_sec{
+    flex: .7;
+    position: relative;
+    padding-top: 3em;
+    width: 20%;
+    margin-left: 3em;
+    top: 5em;
+    background-color: white;
+    border: 1px solid #0079FF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 1px grey ;
+}
+.Instructor_sec_first{
+    right: 0;
+    border-bottom: 1px solid rgb(214, 213, 213);
+}
+.Instructor_sec_first > .Instructor_sec_first_one{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+}
+.Instructor_sec_first > .Instructor_sec_first_one > img{
+    height: 10em;
+}
+.Instructor_sec_first > .Instructor_sec_first_one > .Instructor_sec_firs_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.Instructor_sec_first > .Instructor_sec_first_one > p{
+    display: flex;
+    align-items: center;
+    color: grey;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.Instructor_sec_first_two{
+    margin-top: 2em;
+}
+.Instructor_sec_first_two > .Stats{
+    display: flex;
+}
+.Instructor_sec_first_two > .Stats > div > h1{
+    letter-spacing: 5px;
+}
+.Instructor_sec_first_two > .Stats > div > p{
+    color: grey;
+}
+.Instructor_sec_first_three > .Instructor_sec_first_three_info{
+  display: flex;  
+  justify-content: space-between;
+  
+}
+.Instructor_sec_first_three > .Instructor_sec_first_three_info >div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.Instructor_sec_first_three > .Instructor_sec_first_three_info >div > p{
+    margin-top: 5px;
+    color: grey;
+}
+.Instructor_sec_two > div > div > p{
+    color: grey;
+}
+

@@ -1,0 +1,50 @@
+#mode{
+    position: relative;
+    padding-top: 5em;
+    /* margin-left: 7em; */
+    /* background-color: #E0E6F2; */
+    display: flex;
+}
+#mode > .mode_first{
+    flex: .2;
+    position: fixed;
+    padding-top: 5em;
+    margin-left: 7em;
+    height: 100vh;
+    width: 20%;
+    background-color: #E0E6F2;
+}
+#mode > .mode_sec{
+    flex: .8;
+    position: relative;
+    padding-top: 5em;
+    margin-left: 25em;
+    height: 100vh;
+}
+#mode > .mode_first > div{
+    display: flex;
+    flex-direction: column;
+}
+#mode > .mode_first > .mode_list > div:nth-child(3){
+    background-color: rgb(192, 192, 192);
+
+}
+#mode > .mode_first >  .mode_list > div > .mode-link{
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+
+}
+#mode > .mode_first >  .mode_list > div > .mode-link > img{
+    height: 3em;
+    margin-left: 1em;
+}
+#mode > .mode_first >  .mode_list > div > .mode-link >  p{
+    font-weight: 600;
+    color: black;
+    padding-top: 1em;
+    margin-left: 1em;
+}
+.mode_sec_title > p{
+    color: grey;
+}
